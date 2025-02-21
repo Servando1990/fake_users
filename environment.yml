@@ -1,0 +1,19 @@
+name: fake_user_detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas>=2.0.0
+  - scikit-learn>=1.0.0
+  - numpy>=1.20.0
+  - pytest>=7.0.0
+  - black>=22.0.0
+  - python-dotenv>=0.19.0
+  - fastapi>=0.68.0
+  - uvicorn>=0.15.0
+  - python-multipart>=0.0.5
+  - loguru>=0.7.0
+  - pip
+  - pip:
+    - joblib>=1.1.0 
