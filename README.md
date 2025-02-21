@@ -122,29 +122,6 @@ Logs are stored in the `logs` directory:
 - `all.log`: Contains all log levels
 - `error.log`: Contains only error messages
 
-## Best Practices Followed
-
-1. Clean Code:
-   - Type hints
-   - Comprehensive docstrings
-   - Consistent code style
-   - Modular design
-
-2. ML Project Structure:
-   - Separate preprocessing and model modules
-   - Feature engineering pipeline
-   - Model persistence
-   - Cross-validation
-   - Train/test splitting
-   - Evaluation metrics
-
-3. Production Readiness:
-   - REST API with FastAPI
-   - Comprehensive logging
-   - Error handling
-   - Input validation
-   - Configurable parameters
-   - Reproducible training
 
 ## Future Improvements
 
