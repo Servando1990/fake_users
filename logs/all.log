@@ -1,0 +1,11 @@
+2025-02-21 15:27:54 | INFO     | __main__:predict:60 - Starting prediction using model from models/fake_user_detector.joblib
+2025-02-21 15:28:06 | INFO     | __main__:predict:60 - Starting prediction using model from models/fake_user_detector.joblib
+2025-02-21 15:28:06 | INFO     | preprocessing.processor:__init__:15 - Initialized DataProcessor
+2025-02-21 15:28:06 | INFO     | preprocessing.processor:load_scaler:26 - Loaded scaler from models/scaler.joblib
+2025-02-21 15:28:06 | INFO     | preprocessing.processor:process_data:39 - Processing inference data
+2025-02-21 15:28:07 | DEBUG    | preprocessing.processor:process_data:74 - Transforming features using pre-fitted scaler
+2025-02-21 15:28:07 | INFO     | model.detector:load_model:98 - Model loaded from models/fake_user_detector.joblib
+2025-02-21 15:28:07 | INFO     | model.detector:__init__:27 - Loaded model from models/fake_user_detector.joblib
+2025-02-21 15:28:07 | INFO     | model.detector:predict:64 - Making predictions on 1070 samples
+2025-02-21 15:28:07 | INFO     | __main__:predict:86 - Predictions saved to predictions.csv
+2025-02-21 15:28:07 | INFO     | __main__:predict:94 - Prediction accuracy on test set: 0.988

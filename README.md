@@ -29,6 +29,7 @@
 ├── environment.yml        # Conda environment specification
 ├── data/                # Data directory
 │   └── test_data.csv    # Generated test dataset
+│   └── fake_users.csv   # Training data
 ├── models/              # Model artifacts
 │   ├── fake_user_detector.joblib  # Trained model
 │   └── training_metrics.json      # Training metrics
@@ -69,7 +70,7 @@ Available training arguments:
 #### Using CLI:
 
 ```
-python src/main.py predict --model models/fake_user_detector.joblib --data test_data.csv --output predictions.csv
+python src/main.py predict --model models/fake_user_detector.joblib --data new_users.csv --output predictions.csv
 ```
 
 #### Using API:
@@ -86,7 +87,7 @@ python src/main.py serve --port 8000
 curl -X POST "http://localhost:8000/predict" \
     -H "accept: application/json" \
     -H "Content-Type: multipart/form-data" \
-    -F "file=@test_data.csv"
+    -F "file=@new_users.csv"
 ```
 
 ## Input Data Format
